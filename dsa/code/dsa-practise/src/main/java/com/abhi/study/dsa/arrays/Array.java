@@ -48,19 +48,48 @@ public class Array {
         return -1;
     }
 
-    public static int equilibriumIdx(int[] arr){
+    public static int equilibriumIdx(int[] arr) {
         int sum = 0;
         int leftSum = 0;
-        for(int item: arr){
+        for (int item : arr) {
             sum += item;
         }
-        for(int i=0; i < arr.length; i++){
+        for (int i = 0; i < arr.length; i++) {
             sum = sum - arr[i];
-            if(sum == leftSum) return arr[i];
+            if (sum == leftSum) return arr[i];
             leftSum += arr[i];
         }
         return -1;
     }
+
+    static int ceilSearch(int[] arr, int l, int h, int x) {
+        if (x <= arr[l]) return arr[l];
+        else if (x > arr[h]) return -1;
+        int m = (l + h) / 2;
+        if (arr[m] == x) return arr[m];
+        else if (x > arr[m]) {
+            if (m + 1 <= h && arr[m + 1] >= x) return arr[m + 1];
+            else return ceilSearch(arr, m + 1, h, x);
+        } else {
+            if (m - 1 >= l && arr[m - 1] <= x) return arr[m];
+            else return ceilSearch(arr, l, m - 1, x);
+        }
+    }
+
+    static int flrSearch(int[] arr, int l, int h, int x) {
+        if (arr[l] > x) return -1;
+        else if (arr[h] <= x) return arr[h];
+        int m = (l + h) / 2;
+        if (arr[m] == x) return arr[m];
+        else if (x < arr[m]) {
+            if (m - 1 >= l && arr[m - 1] <= x) return arr[m - 1];
+            else return flrSearch(arr, l, m - 1, x);
+        } else {
+            if (m + 1 <= h && arr[m + 1] > x) return arr[m];
+            else return flrSearch(arr, m + 1, h, x);
+        }
+    }
+
 
     public static void main(String[] args) {
         int[] arr = new int[]{-6, 1, 5, 2, -4, 3, 0};

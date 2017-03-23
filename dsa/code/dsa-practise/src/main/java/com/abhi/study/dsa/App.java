@@ -128,11 +128,8 @@ public class App {
         n.right.right = new Node(25);*/
 
         /*pairSum(n, 33);*/
-
-      A a = new A();
-        B b = new B();
-        A bb = b;
-        B bbb = (B) b;
+        double d = (544*100.0)/477900;
+        System.out.println(String.format("%s", d));
 
     }
 }
