@@ -1947,3 +1947,6 @@ Sit back and enjoy. "Netflix and skill" :P
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
+## Unix concepts
+- [Unix inodes and blocks visualization](https://www.youtube.com/watch?v=oHrlU3b1ZAw)
+- [Inodes structure](https://www.youtube.com/watch?v=tMVj22EWg6A_)
