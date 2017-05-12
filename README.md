@@ -1947,6 +1947,27 @@ Sit back and enjoy. "Netflix and skill" :P
 - [Directory of Online CS Courses](https://github.com/open-source-society/computer-science)
 - [Directory of CS Courses (many with online lectures)](https://github.com/prakhar1989/awesome-courses)
 
-## Unix concepts
+### HBase
+* http://hbase.apache.org/book.html
+* http://hbase.apache.org/book.html#store
+* http://hbase.apache.org/book.html#keyvalue
+* http://hbase.apache.org/book.html#schema.casestudies
+* http://hbase.apache.org/book.html#regions.arch
+* http://hbase.apache.org/acid-semantics.html
+* http://hadoop-hbase.blogspot.in/2013/01/hbase-region-server-memory-sizing.html
+* https://cloud.google.com/bigtable/docs/schema-design
+* http://ianvarley.com/UT/MR/Varley_MastersReport_Full_2009-08-07.pdf
+* http://hadoop-hbase.blogspot.in/2012/03/acid-in-hbase.html
+* http://comments.gmane.org/gmane.comp.java.hadoop.hbase.user/28421
+* https://www.ngdata.com/bending-time-in-hbase/
+* https://issues.apache.org/jira/browse/HBASE-2406
+* http://0b4af6cdc2f0c5998459-c0245c5c937c5dedcca3f1764ecc9b2f.r43.cf2.rackcdn.com/9353-login1210_khurana.pdf
+- [HBase HFile hfile-block-indexed-file-format-to] http://cloudepr.blogspot.in/2009/09/hfile-block-indexed-file-format-to.html
+- [HBase HFile hbase-io-hfile](http://th30z.blogspot.in/2011/02/hbase-io-hfile.html?spref=tw
+
+## Unix FS concepts
 - [Unix inodes and blocks visualization](https://www.youtube.com/watch?v=oHrlU3b1ZAw)
 - [Inodes structure](https://www.youtube.com/watch?v=tMVj22EWg6A_)
+- [Stackoverflow blocks and sector sizes](http://stackoverflow.com/questions/12345804/difference-between-blocks-and-sectors)
+- [HBase discussion on key size heap issue](https://issues.apache.org/jira/browse/HBASE-3551)
+
