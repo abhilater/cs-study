@@ -1962,8 +1962,8 @@ Sit back and enjoy. "Netflix and skill" :P
 * https://www.ngdata.com/bending-time-in-hbase/
 * https://issues.apache.org/jira/browse/HBASE-2406
 * http://0b4af6cdc2f0c5998459-c0245c5c937c5dedcca3f1764ecc9b2f.r43.cf2.rackcdn.com/9353-login1210_khurana.pdf
-- [HBase HFile hfile-block-indexed-file-format-to] http://cloudepr.blogspot.in/2009/09/hfile-block-indexed-file-format-to.html
-- [HBase HFile hbase-io-hfile](http://th30z.blogspot.in/2011/02/hbase-io-hfile.html?spref=tw
+- [HBase HFile hfile-block-indexed-file-format-to](http://cloudepr.blogspot.in/2009/09/hfile-block-indexed-file-format-to.html)
+- [HBase HFile hbase-io-hfile](http://th30z.blogspot.in/2011/02/hbase-io-hfile.html?spref=tw)
 
 ## Unix FS concepts
 - [Unix inodes and blocks visualization](https://www.youtube.com/watch?v=oHrlU3b1ZAw)
